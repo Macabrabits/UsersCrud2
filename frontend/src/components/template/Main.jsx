@@ -4,9 +4,8 @@ import Header from './Header'
 
 export default props =>
 <Fragment>
-    <Header>
-        <main className="content">
+    <Header {...props} />
+    <main className="content">
             Conteúdo
-        </main>
-    </Header>
+    </main>
 </Fragment>
