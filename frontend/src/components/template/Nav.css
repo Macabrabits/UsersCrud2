@@ -1,0 +1,15 @@
+aside.menu-area{
+    background-color: var(--bg-dark);
+}
+
+.menu a{
+    display: block; /*Faz com que cada "<a><a/>" ocupe uma linha dentro do menu*/
+    text-decoration: none;
+    color: white;
+    font-weight: none;
+    padding: 15px;
+}
+
+.menu a:hover{
+    background: linear-gradient(135deg, #07A7E3 0%, #32DAC3 100%);
+}
